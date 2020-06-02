@@ -6,7 +6,6 @@ setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
   tests: './*_test.js',
-  //tests: './Fail2_test.js',
   output: './output',
   helpers: {
     Puppeteer: {
